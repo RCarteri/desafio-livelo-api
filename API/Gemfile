@@ -1,0 +1,7 @@
+source 'http://rubygems.org'
+
+gem 'cucumber'
+gem 'factory_bot'
+gem 'ffaker'
+gem 'httparty'
+gem 'rspec'

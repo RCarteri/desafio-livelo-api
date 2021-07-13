@@ -1,6 +1,6 @@
 # Desafio Livelo API
 
-Este é um desafio da Livelo para testar as habilidades com automação de APIs.
+Este é um [desafio][desafio] da Livelo para testar as habilidades com automação de APIs.
 
 Como exemplo foi utilizada a API [GoRest][1] para testar o GET, POST e DELETE.
 
@@ -10,11 +10,14 @@ Atividades completas:
 
 - GET de todos os usuários cadastrados (somente cenário de sucesso);
 - GET de um usuário específico passado por parâmetro (somente cenário de sucesso);
-- Geração de report;
+- Autenticação da API por token para realizar o POST e DELETE;
+- POST para criação de um novo usuário (somente cenário de sucesso);
+- DELETE para remoção de um usuário já criado (somente cenário de sucesso);
+- Geração de report com html;
 
 Faltaram:
 
-- Autenticar na API para realizar o POST e DELETE;
+- Cenários de exception;
 - Criação do dockerfile;
 
 ## Preparação do ambiente no Windows
@@ -84,4 +87,5 @@ Geralmente se cria a pasta specifications. A seguir uma descrição sobre cada u
 - support: usada para colocar qualquer tipo de configuração para os testes também .rb
 - env.rb: arquivo de configuração para os testes, nele deve conter TODAS as gems que você quer utilizar, antecedidos de um require e também alguma configuração específica para que TODA vez que eu rodar o comando cucumber, ele olhe nesse arquivo, verifica as gems e as configurações para poder seguir com o teste.
 
+[desafio]: desafio.pdf
 [1]: https://gorest.co.in

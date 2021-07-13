@@ -20,4 +20,9 @@ Funcionalidade: Users
     Cenário: Validar POST
         Quando realizar uma requisição POST para o serviço Users
         Então deverá responder com 200
-        E retorna o usuário criado
+        E retornará o usuário criado
+
+    @delete_users
+    Cenário: Validar DELETE
+        Quando realizar uma requisição DELETE para o serviço Users
+        Então deverá responder com 200

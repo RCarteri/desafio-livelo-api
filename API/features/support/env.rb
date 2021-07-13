@@ -1,5 +1,5 @@
 require 'factory_bot'
-require 'faker'
+require 'ffaker'
 require 'httparty'
 require 'rspec'
 require 'pry'

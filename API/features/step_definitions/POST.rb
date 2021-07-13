@@ -4,7 +4,7 @@ Quando('realizar uma requisição POST para o serviço Users') do
     @request_users = users.post_users(@payload_users)
 end
 
-Então('retorna o usuário criado') do
+Então('retornará o usuário criado') do
     expect(@request_users['data']['id']).to eql @payload_users[:id]
     expect(@request_users['data']['name']).to eql @payload_users[:name]
     expect(@request_users['data']['email']).to eql @payload_users[:email]

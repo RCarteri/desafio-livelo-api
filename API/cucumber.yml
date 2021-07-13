@@ -1,8 +1,8 @@
-default: -p html_report -p prd
+default: -p html_report -p prd --publish-quiet
 
 ## Environment ##
-prd: AMBIENTE = prd
-hlg: AMBIENTE = hlg
+prd: AMBIENTE=prd
+hlg: AMBIENTE=hlg
 
 ## Reports ##
 html_report: --format pretty -f html -o reports/features_report.html

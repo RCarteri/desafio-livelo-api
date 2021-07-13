@@ -16,10 +16,11 @@ Funcionalidade: Users
         Então deverá responder com 200
         E retornará o usuário
 
-    @post_users
+    @post_user
     Cenário: Validar POST
         Quando realizar uma requisição POST
         Então deverá responder com 201
+        E retornará o usuário criado
 
     @delete_user
     Cenário: Validar DELETE

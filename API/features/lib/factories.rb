@@ -23,7 +23,6 @@ end
 FactoryBot.define do
     factory :user, class: UsersModel do
         statuss = ['active', 'inactive']
-        id { rand(100..9999) }
         name { FFaker::NameBR.first_name }
         email { FFaker::Internet.free_email }
         gender { FFaker::Gender.binary }

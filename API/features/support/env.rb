@@ -3,6 +3,8 @@ require 'ffaker'
 require 'httparty'
 require 'rspec'
 require 'pry'
+require 'excon'
+
 
 require_relative 'spec_helper/rest'
 

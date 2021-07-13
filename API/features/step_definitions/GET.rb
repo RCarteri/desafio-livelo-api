@@ -21,3 +21,10 @@ Então('retornará o usuário') do
   puts "Request body: #{@request_users['data']}"
   puts "Request code: #{@request_users.code}"
 end
+
+Então('retornará o usuário criado') do
+  expect(@request_users['data']['name']).to eql @payload_users[:name]
+  expect(@request_users['data']['email']).to eql @payload_users[:email]
+  expect(@request_users['data']['gender']).to eql @payload_users[:gender]
+  expect(@request_users['data']['status']).to eql @payload_users[:status]
+end 

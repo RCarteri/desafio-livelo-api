@@ -12,11 +12,15 @@ module Rest
           self.class.get('/users')
       end
 
+      def get_users_exception
+        self.class.get('/user')
+      end
+
       def get_user(id)
         self.class.get("/users/#{id}")
       end
 
-      def post_users(user)
+      def post_user(user)
         self.class.post('/users', body: user.to_json)
       end
 

@@ -8,5 +8,9 @@ module Rest
       def get_users
           self.class.get('/users')
       end
+
+      def get_user id
+        self.class.get("/users/#{id}")
+      end
   end
 end

@@ -1,4 +1,6 @@
 require 'json'
+require 'ffaker'
+require_relative '../models/users'
 
 # retorna um array com todos os ids resultantes do body do responde da API
 def get_array_id(body)
@@ -16,4 +18,15 @@ end
 def sort_id(body)
     array_id = get_array_id(body).sort
     rand(array_id.first..array_id.last)
+end
+
+FactoryBot.define do
+    factory :user, class: UsersModel do
+        statuss = ['active', 'inactive']
+        id { rand(10..99) }
+        name { FFaker::NameBR.first_name }
+        email { FFaker::Internet.free_email }
+        gender { FFaker::Gender.binary }
+        status { statuss[rand( 0..1 )] }
+    end
 end

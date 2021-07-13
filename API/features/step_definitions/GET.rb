@@ -9,7 +9,6 @@ end
 Quando('realizar uma requisição GET para o serviço Users passando id') do
   step 'requerir todos os usuários'
   @id = sort_id(@request_users.body)
-  puts @id
   @request_users = users.get_user(@id)
 end
 

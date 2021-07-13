@@ -15,3 +15,9 @@ Funcionalidade: Users
         Quando realizar uma requisição GET para o serviço Users passando id
         Então deverá responder com 200
         E retornará o usuário
+
+    @post_users
+    Cenário: Validar POST
+        Quando realizar uma requisição POST para o serviço Users
+        Então deverá responder com 200
+        E retorna o usuário criado

@@ -17,7 +17,7 @@ end
 
 def sort_id(body)
     array_id = get_array_id(body).sort
-    rand(array_id.first..array_id.last)
+    array_id[rand(0..array_id.length)]
 end
 
 FactoryBot.define do

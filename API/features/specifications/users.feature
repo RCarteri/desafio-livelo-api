@@ -6,22 +6,22 @@ Funcionalidade: Users
 
     @get_users
     Cenario: Validar GET
-        Quando realizar uma requisição GET para o serviço Users
+        Quando realizar uma requisição GET
         Entao deverá responder com 200
         E retornará a lista de usuários
 
     @get_user
     Cenário: Validar GET com id
-        Quando realizar uma requisição GET para o serviço Users passando id
+        Quando realizar uma requisição GET passando o id
         Então deverá responder com 200
         E retornará o usuário
 
     @post_users
     Cenário: Validar POST
-        Quando realizar uma requisição POST para o serviço Users
+        Quando realizar uma requisição POST
         Então deverá responder com 201
 
-    @delete_users
+    @delete_user
     Cenário: Validar DELETE
-        Quando realizar uma requisição DELETE para o serviço Users
-        Então deverá responder com 200
+        Quando realizar uma requisição DELETE passando o id
+        Então deverá responder com 204

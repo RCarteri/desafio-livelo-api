@@ -12,12 +12,16 @@ module Rest
           self.class.get('/users')
       end
 
-      def get_user id
+      def get_user(id)
         self.class.get("/users/#{id}")
       end
-      
+
       def post_users(user)
         self.class.post('/users', body: user.to_json)
+      end
+
+      def delete_user(id)
+        self.class.delete("/users/#{id}")
       end
   end
 end

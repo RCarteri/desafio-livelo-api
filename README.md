@@ -8,23 +8,26 @@ Devido ao tempo escasso não foi possível realizar todo o desafio.
 
 Atividades completas:
 
-- GET de todos os usuários cadastrados (somente cenário de sucesso);
-- GET de um usuário específico passado por parâmetro (somente cenário de sucesso);
+- GET de todos os usuários cadastrados;
+- GET de um usuário específico passado por parâmetro;
 - Autenticação da API por token para realizar o POST e DELETE;
-- POST para criação de um novo usuário (somente cenário de sucesso);
-- DELETE para remoção de um usuário já criado (somente cenário de sucesso);
-- Geração de report com html;
+- POST para criação de um novo usuário;
+- DELETE para remoção de um usuário já criado;
+- Geração de report com HTML;
 
 Faltaram:
 
-- Cenários de exception;
-- Criação do dockerfile;
+- Conclusão do Dockerfile;
+
+Exemplo de como ficou o teste:
+
+![gif][gif]
 
 ## Preparação do ambiente no Windows
 
 Para usar este projeto é necessário ter instalado:
 
-- [Ruby 2.7.3.1][4] (versão usada neste projeto): linguagem de programação interpretada multiparadigma para executar os steps
+- Ruby 2.7.3.1 (versão usada neste projeto): linguagem de programação interpretada multiparadigma para executar os steps
 - Bundler: Gerenciador das gems. Executar o seguinte comando:
 
   ```
@@ -87,5 +90,6 @@ Geralmente se cria a pasta specifications. A seguir uma descrição sobre cada u
 - support: usada para colocar qualquer tipo de configuração para os testes também .rb
 - env.rb: arquivo de configuração para os testes, nele deve conter TODAS as gems que você quer utilizar, antecedidos de um require e também alguma configuração específica para que TODA vez que eu rodar o comando cucumber, ele olhe nesse arquivo, verifica as gems e as configurações para poder seguir com o teste.
 
+[gif]: desafio_livelo.gif
 [desafio]: desafio.pdf
 [1]: https://gorest.co.in

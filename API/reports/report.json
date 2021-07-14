@@ -1,0 +1,468 @@
+[
+  {
+    "id": "users",
+    "uri": "features/specifications/users.feature",
+    "keyword": "Funcionalidade",
+    "name": "Users",
+    "description": "    Validar operações da API GoRest",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@users",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "users;validar-get",
+        "keyword": "Cenário",
+        "name": "Validar GET",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição GET",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/GET.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1639826900
+            },
+            "status": "passed",
+            "duration": 1639826900
+          },
+          {
+            "keyword": "Entao ",
+            "name": "deverá responder com 200",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5629800
+            },
+            "status": "passed",
+            "duration": 5629800
+          },
+          {
+            "keyword": "E ",
+            "name": "retornará a lista de usuários",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/GET.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 852645900
+            },
+            "status": "passed",
+            "duration": 852645900
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@get_users",
+            "line": 7
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 2498102600
+      },
+      {
+        "id": "users;validar-get-exception",
+        "keyword": "Cenário",
+        "name": "Validar GET Exception",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição GET com página inválida",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/GET.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1448580000
+            },
+            "status": "passed",
+            "duration": 1448580000
+          },
+          {
+            "keyword": "Entao ",
+            "name": "deverá responder com 404",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57900
+            },
+            "status": "passed",
+            "duration": 57900
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@get_users_exception_404",
+            "line": 13
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 1448637900
+      },
+      {
+        "id": "users;validar-get-com-id",
+        "keyword": "Cenário",
+        "name": "Validar GET com id",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição GET passando o id",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/GET.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2917186700
+            },
+            "status": "passed",
+            "duration": 2917186700
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá responder com 200",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70300
+            },
+            "status": "passed",
+            "duration": 70300
+          },
+          {
+            "keyword": "E ",
+            "name": "retornará o usuário",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/GET.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22350500
+            },
+            "status": "passed",
+            "duration": 22350500
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@get_user",
+            "line": 18
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 2939607500
+      },
+      {
+        "id": "users;validar-get-com-id-exception",
+        "keyword": "Cenário",
+        "name": "Validar GET com id Exception",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição GET passando o id inválido",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/GET.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1448615800
+            },
+            "status": "passed",
+            "duration": 1448615800
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá responder com 404",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59200
+            },
+            "status": "passed",
+            "duration": 59200
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@get_user_exception_404",
+            "line": 24
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 1448675000
+      },
+      {
+        "id": "users;validar-post",
+        "keyword": "Cenário",
+        "name": "Validar POST",
+        "description": "",
+        "line": 30,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição POST",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/POST.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1509781400
+            },
+            "status": "passed",
+            "duration": 1509781400
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá responder com 201",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53800
+            },
+            "status": "passed",
+            "duration": 53800
+          },
+          {
+            "keyword": "E ",
+            "name": "retornará o usuário criado",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/GET.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117200
+            },
+            "status": "passed",
+            "duration": 117200
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@post_user",
+            "line": 29
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 1509952400
+      },
+      {
+        "id": "users;validar-delete",
+        "keyword": "Cenário",
+        "name": "Validar DELETE",
+        "description": "",
+        "line": 36,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição DELETE passando o id",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/DELETE.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2932885800
+            },
+            "status": "passed",
+            "duration": 2932885800
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá responder com 204",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64100
+            },
+            "status": "passed",
+            "duration": 64100
+          },
+          {
+            "keyword": "E ",
+            "name": "o usuário não deverá mais estar na lista",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/DELETE.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2080605400
+            },
+            "status": "passed",
+            "duration": 2080605400
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@delete_user",
+            "line": 35
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 5013555300
+      },
+      {
+        "id": "users;validar-delete-com-id-exception",
+        "keyword": "Cenário",
+        "name": "Validar DELETE com id Exception",
+        "description": "",
+        "line": 42,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "realizar uma requisição DELETE passando o id inválido",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/DELETE.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1432117500
+            },
+            "status": "passed",
+            "duration": 1432117500
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá responder com 404",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/default.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60600
+            },
+            "status": "passed",
+            "duration": 60600
+          }
+        ],
+        "tags": [
+          {
+            "name": "@users",
+            "line": 3
+          },
+          {
+            "name": "@delete_user_exception_404",
+            "line": 41
+          }
+        ],
+        "before": [
+
+        ],
+        "after": [
+
+        ],
+        "status": "passed",
+        "duration": 1432178100
+      }
+    ],
+    "status": "working",
+    "duration": 16290708800
+  }
+]

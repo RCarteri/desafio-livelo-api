@@ -30,10 +30,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1639826900
+              "duration": 1653198900
             },
             "status": "passed",
-            "duration": 1639826900
+            "duration": 1653198900
           },
           {
             "keyword": "Entao ",
@@ -44,10 +44,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5629800
+              "duration": 3491700
             },
             "status": "passed",
-            "duration": 5629800
+            "duration": 3491700
           },
           {
             "keyword": "E ",
@@ -58,10 +58,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 852645900
+              "duration": 921137800
             },
             "status": "passed",
-            "duration": 852645900
+            "duration": 921137800
           }
         ],
         "tags": [
@@ -81,7 +81,7 @@
 
         ],
         "status": "passed",
-        "duration": 2498102600
+        "duration": 2577828400
       },
       {
         "id": "users;validar-get-exception",
@@ -100,10 +100,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1448580000
+              "duration": 1459418800
             },
             "status": "passed",
-            "duration": 1448580000
+            "duration": 1459418800
           },
           {
             "keyword": "Entao ",
@@ -114,10 +114,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57900
+              "duration": 63900
             },
             "status": "passed",
-            "duration": 57900
+            "duration": 63900
           }
         ],
         "tags": [
@@ -137,7 +137,7 @@
 
         ],
         "status": "passed",
-        "duration": 1448637900
+        "duration": 1459482700
       },
       {
         "id": "users;validar-get-com-id",
@@ -156,10 +156,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2917186700
+              "duration": 2975266300
             },
             "status": "passed",
-            "duration": 2917186700
+            "duration": 2975266300
           },
           {
             "keyword": "Então ",
@@ -170,10 +170,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70300
+              "duration": 57700
             },
             "status": "passed",
-            "duration": 70300
+            "duration": 57700
           },
           {
             "keyword": "E ",
@@ -184,10 +184,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22350500
+              "duration": 20252700
             },
             "status": "passed",
-            "duration": 22350500
+            "duration": 20252700
           }
         ],
         "tags": [
@@ -207,7 +207,7 @@
 
         ],
         "status": "passed",
-        "duration": 2939607500
+        "duration": 2995576700
       },
       {
         "id": "users;validar-get-com-id-exception",
@@ -226,10 +226,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1448615800
+              "duration": 1420847000
             },
             "status": "passed",
-            "duration": 1448615800
+            "duration": 1420847000
           },
           {
             "keyword": "Então ",
@@ -240,10 +240,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59200
+              "duration": 65000
             },
             "status": "passed",
-            "duration": 59200
+            "duration": 65000
           }
         ],
         "tags": [
@@ -263,7 +263,7 @@
 
         ],
         "status": "passed",
-        "duration": 1448675000
+        "duration": 1420912000
       },
       {
         "id": "users;validar-post",
@@ -282,10 +282,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1509781400
+              "duration": 1556889100
             },
             "status": "passed",
-            "duration": 1509781400
+            "duration": 1556889100
           },
           {
             "keyword": "Então ",
@@ -296,10 +296,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53800
+              "duration": 64600
             },
             "status": "passed",
-            "duration": 53800
+            "duration": 64600
           },
           {
             "keyword": "E ",
@@ -310,10 +310,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 117200
+              "duration": 212700
             },
             "status": "passed",
-            "duration": 117200
+            "duration": 212700
           }
         ],
         "tags": [
@@ -333,7 +333,7 @@
 
         ],
         "status": "passed",
-        "duration": 1509952400
+        "duration": 1557166400
       },
       {
         "id": "users;validar-delete",
@@ -352,10 +352,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2932885800
+              "duration": 2927873600
             },
             "status": "passed",
-            "duration": 2932885800
+            "duration": 2927873600
           },
           {
             "keyword": "Então ",
@@ -366,10 +366,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64100
+              "duration": 57900
             },
             "status": "passed",
-            "duration": 64100
+            "duration": 57900
           },
           {
             "keyword": "E ",
@@ -380,10 +380,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2080605400
+              "duration": 2054300400
             },
             "status": "passed",
-            "duration": 2080605400
+            "duration": 2054300400
           }
         ],
         "tags": [
@@ -403,7 +403,7 @@
 
         ],
         "status": "passed",
-        "duration": 5013555300
+        "duration": 4982231900
       },
       {
         "id": "users;validar-delete-com-id-exception",
@@ -422,10 +422,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1432117500
+              "duration": 1453291800
             },
             "status": "passed",
-            "duration": 1432117500
+            "duration": 1453291800
           },
           {
             "keyword": "Então ",
@@ -436,10 +436,10 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60600
+              "duration": 56800
             },
             "status": "passed",
-            "duration": 60600
+            "duration": 56800
           }
         ],
         "tags": [
@@ -459,10 +459,10 @@
 
         ],
         "status": "passed",
-        "duration": 1432178100
+        "duration": 1453348600
       }
     ],
     "status": "working",
-    "duration": 16290708800
+    "duration": 16446546700
   }
 ]

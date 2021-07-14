@@ -7,4 +7,3 @@ gem 'httparty'  # gem responsável pelas requisições de web services https://g
 gem 'excon' # gem responsável pelas requisições de web services https://github.com/excon/excon
 gem 'rspec' # gem que permite fazer as asserções https://rspec.info/.
 gem 'pry' # debug do código
-gem 'report_builder' # gerar o relatório em HTML e JSON

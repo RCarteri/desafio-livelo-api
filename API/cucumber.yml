@@ -1,9 +1,8 @@
-default: -p prd -p json_report -p html_report --publish-quiet
+default: -p html_report -p prd --publish-quiet
 
 ## Environment ##
 prd: AMBIENTE=prd
 hlg: AMBIENTE=hlg
 
 ## Reports ##
-json_report: --format pretty --format json --out reports/report.json
-html_report: --format pretty --format html --out reports/report.html
+html_report: --format pretty -f html -o reports/features_report.html

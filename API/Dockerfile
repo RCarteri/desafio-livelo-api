@@ -11,6 +11,4 @@ RUN bundle install
 
 ADD . $APP_HOME
 
-RUN cucumber
-
-ENTRYPOINT [ "echo", "I got it!" ]
+ENTRYPOINT [ "cucumber" ]
